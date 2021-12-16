@@ -1,0 +1,29 @@
+{
+  "name": "metalfest",
+  "version": "1.0.0",
+  "description": "Learing Gulp y SSAS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cynad97"
+  },
+  "keywords": [
+    "SSAS",
+    "Gulp",
+    "Web",
+    "Design"
+  ],
+  "author": "Hernandez, Claudio Ariel",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.0",
+    "sass": "^1.45.0"
+  }
+}
