@@ -15,3 +15,10 @@
         @content;
     }
 }
+
+@mixin grid($columns, $space) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: $space;
+
+}
