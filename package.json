@@ -34,6 +34,7 @@
     "postcss": "^8.4.5"
   },
   "dependencies": {
+    "gulp-netlify": "^1.1.0",
     "node-sass": "^7.0.0",
     "sass": "^1.45.0"
   }

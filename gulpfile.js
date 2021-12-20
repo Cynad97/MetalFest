@@ -14,6 +14,17 @@ const sourcemaps = require('gulp-sourcemaps')
 //Utilidades JS
 const terser = require('gulp-terser-js')
 
+//Netlify
+
+var netlify = require('gulp-netlify')
+gulp.task('deploy', function () {
+  gulp.src('./public/**/*')
+    .pipe(netlify({
+      site_id: NETLIFY_SITE_ID,
+      access_token: NETLIFY_ACCESS_TOKEN
+    }))
+})
+
 
 //Funcion que compila SASS
 
